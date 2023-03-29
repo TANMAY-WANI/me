@@ -2,7 +2,7 @@
     background-color:#ECF2FF;
 } */
 
-#name,#link,#yellow_dot{
+#name,#link{
     display: inline-block;
 }
 
@@ -25,6 +25,16 @@
 
 #link{
     margin-left: auto;
+}
+
+.myImg{
+    width:500px;
+    height:500px;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
 }
 
 .container {
@@ -91,9 +101,9 @@
    }
 
 .footer{
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
@@ -106,11 +116,53 @@
     font-weight: 1rem;
 }
 hr{
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 15%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .pointer{
     cursor: pointer;
+}
+
+@media all and (max-width:550px){
+    #name,#link{
+        display: inline-block;
+    }
+    .myName{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 1.3rem;
+    }
+    #name{
+        width:65%;
+    }
+    .navLinks{
+        text-decoration: none;
+        font-size: 0.85rem;
+        color: #3C4048;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .myImg{
+        width: 250px;
+        height: 250px;
+    }
+    .container{
+        text-align: center;
+        display: inline-block;
+        margin-left: 5%;
+    }
+    .text1{
+        text-align: center;
+        font-size: 50px;
+    }
+    .fh1{
+        font-size: 1rem;
+    }
+    .fh2{
+        font-size: 0.69rem;
+    }
+    .logo{
+        height: 15px;
+        width: 15px;
+    }
 }
