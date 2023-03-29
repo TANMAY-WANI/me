@@ -64,9 +64,9 @@ li{
     padding-bottom: 10px;
 }
 .footer{
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
@@ -79,11 +79,48 @@ li{
     font-weight: 1rem;
 }
 hr{
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 15%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .pointer{
     cursor: pointer;
+}
+
+@media all and (max-width:550px){
+    .myName{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 1.3rem;
+    }
+    #name{
+        width:65%;
+    }
+    .navLinks{
+        text-decoration: none;
+        font-size: 0.85rem;
+        color: #3C4048;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .resume{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .row1, .row2, .row3{
+        margin-left: 3%;
+    }
+    .row3{
+        column-gap: 0%;
+    }
+    .fh1{
+        font-size: 1rem;
+    }
+    .fh2{
+        font-size: 0.69rem;
+    }
+    .logo{
+        height: 15px;
+        width: 15px;
+    }
 }
