@@ -1,0 +1,116 @@
+/* body{
+    background-color:#ECF2FF;
+} */
+
+#name,#link,#yellow_dot{
+    display: inline-block;
+}
+
+.myName{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.8rem;
+}
+
+.navLinks{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #3C4048;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+#name{
+    width:80%;
+}
+
+#link{
+    margin-left: auto;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    margin-left: 17%;
+    margin-top: 7%;
+    margin-right: 15%;
+   }
+   
+   /* img {
+    border: black;
+   } */
+   
+   .text1 {
+     font-size: 70px;
+     font-family: 'Edu NSW ACT Foundation', cursive;
+   }
+   .text2{
+    font-size: 20px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+   }
+   .text{
+    margin-left: 5%;
+   }
+   .circle{
+    display: inline-block;
+
+   }
+   .red{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url("images/red.png");
+    border-radius: 50%;
+    border-width: 3px;
+    font-size: 1rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+
+   }
+   .yellow{
+    width: 100px;
+    height: 100px;
+    background-image: url("images/yellow.jpeg");
+    border-radius: 50%;
+    border-width: 3px;
+    font-size: 1rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+   }
+   .blue{
+    width: 100px;
+    height: 100px;
+    background-image: url("images/blue.webp");
+    border-radius: 50%;
+    border-width: 3px;
+    font-size: 1rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+   }
+   .hover{
+    background-image: url("images/hover.jpeg");
+   }
+
+.footer{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.fh1{
+    font-family: 'Alkatra', cursive;
+}
+.fh2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1rem;
+}
+hr{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pointer{
+    cursor: pointer;
+}

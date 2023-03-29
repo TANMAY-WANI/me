@@ -1,0 +1,90 @@
+#name,#link,#yellow_dot{
+    display: inline-block;
+}
+
+.myName{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.8rem;
+}
+
+.navLinks{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #3C4048;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+#name{
+    width:80%;
+}
+
+#link{
+    margin-left: auto;
+}
+
+.frame{
+    margin-top: 4%;
+    margin-left: 12.59%;
+    margin-bottom: 4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    font-size: 2.7rem;
+    margin-bottom: 0px;
+}
+
+.subH{
+    margin-top: 10px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 12%;
+    margin-right: 20%;
+}
+.fname, .lname, #email, .subject{
+    width: 200px;
+    height: 40px;
+}
+.message{
+    width: 200px;
+    height:100px
+}
+.submit{
+    background-image: url("images/yellow.jpeg");
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+.footer{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.fh1{
+    font-family: 'Alkatra', cursive;
+}
+.fh2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1rem;
+}
+hr{
+    margin-top: 15%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.pointer{
+    cursor: pointer;
+}
+.hover{
+    background-image: url("images/hover.jpeg");
+}
