@@ -134,7 +134,7 @@ hr{
         font-size: 1.3rem;
     }
     #name{
-        width:65%;
+        width:50%;
     }
     .navLinks{
         text-decoration: none;
@@ -159,10 +159,14 @@ hr{
         font-size: 1rem;
     }
     .fh2{
-        font-size: 0.69rem;
+        font-size: 0.6rem;
     }
     .logo{
         height: 15px;
         width: 15px;
+    }
+    .red,.blue,.yellow{
+        width: 80px;
+        height: 80px;
     }
 }
