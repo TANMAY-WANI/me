@@ -5,6 +5,10 @@
 #name,#link,#yellow_dot{
     display: inline-block;
 }
+.logo{
+    width: 30px;
+    height: 30px;
+}
 
 .myName{
     font-family: 'Kaushan Script', cursive;
