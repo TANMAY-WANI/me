@@ -36,6 +36,10 @@
     width: 30px;
     height: 30px;
 }
+.logo{
+    width: 30px;
+    height: 30px;
+}
 
 .container {
     display: grid;
